@@ -32,38 +32,21 @@
         <!-- Memory -->
         <div class="mb-3">
             <h5>Memory</h5>
-        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-          <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck1">8GB unified memory</label>
-
-          <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck2">16GB unified memory</label>
-        </div>
+        <button  class="btn btn-outline-secondary" id="memory-1" >8GB unified memory</button>
+        <button class="btn btn-outline-secondary" id="memory-2">16GB unified memory</button>
         </div>  
         <!-- storage  -->
         <div class="mb-3">
              <h5>Storage</h5>
-        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-          <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck3">256GB SSD storage</label>
-
-          <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck4">512GB SSD storage</label>
-
-          <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck5">1Tb SSD storage</label>
-        </div>
+        <button  class="btn btn-outline-secondary" id="storage-1">256GB SSD storage</button>
+        <button class="btn btn-outline-secondary" id="storage-2">512GB SSD storage</button>
+        <button class="btn btn-outline-secondary" id="storage-3">1Tb SSD storage</button>
         </div>
         <!-- Delivery Option -->
         <div class="mb-3">
         <h5>Choose your delivery option </h5>
-        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-          <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck6">Friday,Aug 25 Free Prime Delivery</label>
-
-          <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btncheck7">Friday,Aug 21 Delivery charge $20</label>
-        </div>
+        <button  class="btn btn-outline-secondary" id="delivery-1">Friday,Aug 25 Free Prime Delivery</button>
+        <button class="btn btn-outline-secondary" id="delivery-2">Friday,Aug 21 Delivery Charge $20</button>        
         </div>        
         <!-- table start -->
         <table class="table table-striped my-4 table-hover">
@@ -74,28 +57,28 @@
             </tr>
             <tr>
               <td>Extra Memory Cost</td>
-              <td>$<span id="Extra-Memory-Cost">0</span> </td>
+              <td>$<span id="memory-cost">0</span> </td>
             </tr>
             <tr>
               <td>Extra-Storage-Cost</td>
-              <td>$<span id="Extra-Storage-Cost">0</span> </td>
+              <td>$<span id="storage-cost">0</span> </td>
             </tr>
             <tr>
               <td>Delivery charge</td>
-              <td>$<span id="Delivery-charge">0</span> </td>
+              <td>$<span id="delivery-cost">0</span> </td>
             </tr>
             <thead></thead>
             <tr>
               <td>Total Price</td>
-              <td>$<span id="Total-price">1299</span></td>
+              <td>$<span id="total-price">1299</span></td>
             </tr>
           </tbody>
         </table>
         <!-- table end  -->
         <!-- promo code  -->
         <div class="d-flex">
-          <input type="text">
-         <button type="button" class="btn btn-outline-danger">Apply</button>
+          <input type="text" id="promo-field">
+         <button type="button" id="promo-btn" class="btn btn-outline-danger">Apply</button>
         </div>
       </div>
     </div>
@@ -106,7 +89,7 @@
 <!-- start footer  -->
 <footer>
 <hr>
-<h4 class="text-center my-3">Total : $<span id="total">1299</span></h4>
+<h4 class="text-center my-3">Total : $<span id="total-price-final">1299</span></h4>
 </footer>
 <!-- end footer -->
 
