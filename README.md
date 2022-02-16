@@ -17,6 +17,6 @@ If you have any feedback, please reach out to me at afreuljoy@gmail.com
   
 ## Live Site link : 
 
-https://afreul-joy.github.io/Apple-Store/
+https://applestore7.netlify.app/
 
   
